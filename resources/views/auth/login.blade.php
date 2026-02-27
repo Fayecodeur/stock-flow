@@ -14,6 +14,12 @@
                 <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Bienvenue !</h1>
                 </div>
+                <!-- Session Status -->
+                @if (session('status'))
+                    <div class="alert alert-success mb-4">
+                        {{ session('status') }}
+                    </div>
+                @endif
 
                 <form method="POST" action="{{ route('login') }}" class="user">
                     @csrf
