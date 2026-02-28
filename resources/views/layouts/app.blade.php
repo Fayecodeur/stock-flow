@@ -49,8 +49,7 @@
                         <h1 class="h3 mb-0 text-gray-800">@yield('heading', 'Tableau de bord')</h1>
                     </div>
 
-                    {{-- <!-- Cards -->
-                    @include('partials.cards') --}}
+
 
                     @yield('content')
 
