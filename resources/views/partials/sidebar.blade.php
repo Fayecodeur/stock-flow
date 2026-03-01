@@ -45,7 +45,7 @@
               <div id="collapseCategories" class="collapse" aria-labelledby="headingCategories" data-parent="#accordionSidebar">
                   <div class="bg-white py-2 collapse-inner rounded">
                       <a class="collapse-item" href="categories.html">
-                          <i class="fas fa-list me-2"></i> Liste des catégories
+                          <i class="fas fa-list me-2">{{route('categories.index')}}</i> Liste des catégories
                       </a>
                       <a class="collapse-item" href="{{route('categories.create')}}">
                           <i class="fas fa-plus me-2"></i> Ajouter une catégorie
